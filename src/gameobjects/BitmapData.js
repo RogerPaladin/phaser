@@ -473,7 +473,6 @@ Phaser.BitmapData.prototype = {
 
         this.context.clearRect(x, y, width, height);
 
-
         this.dirty = true;
 
         return this;
